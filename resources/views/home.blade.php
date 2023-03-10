@@ -5,10 +5,14 @@
 @section("content")
 <div class="container">
     <div class="row">
-        <div class="col">
-
+        @foreach ($comics as $comic)
+            
+        <div class="col-6 col-sm-3 col-md-2">
+        {{ $comic["title"] }}
 
         </div>
+        @endforeach
+
     </div>
 </div>
 @endsection
