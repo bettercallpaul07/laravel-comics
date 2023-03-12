@@ -1,23 +1,19 @@
+
 <header>
-    <div class="container pt-5">
 
-        <div class="row">
-            <div class="col text-center">
-                <img src="{{ Vite::asset("resources/img/dc-logo.png") }}" alt="Dc Logo">
-            </div>
+        <div class="logo">
+            <img src="/img/dc-logo.png" alt="Logo">
         </div>
 
-        <div class="row">
-            <div class="col">
+        <div class="menu">
+
+                
                 <ul>
-                    <li><a href="#"></a>Home</li>
-                    <li><a href="#"></a>Prodotti</li>
-                    <li><a href="#"></a>News</li>
+                    <li><a href="#"></a>$item</li>
                 </ul>
-            </div>
+
         </div>
 
-    </div>
     
 
 </header>

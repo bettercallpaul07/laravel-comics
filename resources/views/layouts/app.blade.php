@@ -10,13 +10,19 @@
         @vite('resources/js/app.js')
     </head>
     <body>
-        @include("partials.header")
+        @include('partials.header')
 
         <main>
+        @include("partials.jumbo")
+
           @yield("content")
         </main>
-        
+
+        @include("partials.market")
+
+        <footer>
         @include("partials.footer")
+        </footer>
 
     </body>
 </html>

@@ -1,0 +1,40 @@
+section {
+    background-color: rgba(12, 115, 233, 0.993);
+    color: white;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            text-transform: uppercase;
+
+            li {
+                padding: 0px 40px;
+
+                img {
+                    width: 50px;
+                }
+
+                span {
+                    padding: 0px 5px;
+                    color: white;
+
+                }
+            }
+
+
+        }
+
+    }
+
+
+}

@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+}
+
+.top-button {
+    button {
+        position: absolute;
+        top: -5%;
+    }
+}
+
+
+.comics {
+    padding-top: 3rem;
+
+    .comic {
+        padding: 1rem;
+    }
+}
+
+.down-button {
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}

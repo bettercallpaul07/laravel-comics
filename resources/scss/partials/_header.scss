@@ -1,11 +1,17 @@
 header {
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 10vh;
+    background-color: white;
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 1%;
 
     .logo {
         padding: 10px 0px;
+        width: auto;
         height: 100%;
 
         img {
@@ -14,41 +20,41 @@ header {
         }
 
     }
-}
 
 
-ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    height: 100%;
-
-
-
-    li {
-        height: 100%;
+    ul {
         display: flex;
         align-items: center;
-        color: black;
+        list-style: none;
+        height: 100%;
 
-        a {
-            text-decoration: none;
-            padding: 0px 10px;
-            cursor: pointer;
-            text-transform: uppercase;
-            font-weight: bold;
+
+
+        li {
+            height: 100%;
+            display: flex;
+            align-items: center;
             color: black;
 
-        }
-
-        &.active {
-            border-bottom: 3px solid blue;
-
             a {
-                color: blue;
+                text-decoration: none;
+                padding: 0px 10px;
+                cursor: pointer;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: black;
+
             }
 
+            &.active {
+                border-bottom: 3px solid blue;
 
+                a {
+                    color: blue;
+                }
+
+
+            }
         }
     }
 }

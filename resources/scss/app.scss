@@ -1,8 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./partials/header";
+@import "./partials/card";
+@import "./partials/jumbo";
+@import "./partials/mixins";
+@import "./partials/main";
+@import "./partials/market";
+@import "./partials/footer";
 
 
-
-img {
-    max-height: 150px;
+body {
+    background-color: black;
+    color: white;
 }

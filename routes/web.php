@@ -15,11 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $dati = config("comics");
+    $headList = config("links");
 
-    return view('home', [
-        "comics" => $dati
+    return view('main', [
+        "comics" => $dati,
+        "links" => $headList
     ]);
 });
+
+
+
 
 Route::get('/comics', function () {
     $dati = config("comics");
